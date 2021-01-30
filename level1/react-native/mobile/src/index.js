@@ -26,7 +26,7 @@ export default function App() {
 
   return (
     <>
-      <StatusBar barStyle="light-content" backgroundColor="#7159c1"/>
+      <StatusBar barStyle="light-content" backgroundColor="red"/>
       <SafeAreaView style={styles.container}>
         <FlatList
           data={projects}
@@ -50,7 +50,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#7159c1',
+    backgroundColor: 'red',
     flex: 1
   },
   project: {
